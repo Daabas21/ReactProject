@@ -1,0 +1,4 @@
+.Header-btn:hover{
+    color: rgba(19, 105, 216, 0.77);
+    transition: all 0.3s ease-in-out;
+}

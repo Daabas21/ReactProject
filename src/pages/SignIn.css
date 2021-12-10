@@ -1,0 +1,9 @@
+.SignIn-btn{
+    background:rgba(156, 163, 175, 20);
+}
+
+
+.SignIn-btn:hover{
+    background: rgb(43, 113, 219);
+    transition-duration: 0.9s;
+  }

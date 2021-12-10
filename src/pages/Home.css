@@ -1,0 +1,48 @@
+.Home{
+    background-image: url("../images/gymHeader.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 600px;
+    
+}
+
+.btn-slanted a.btn {
+    padding: 0.8rem 4.5rem;
+    font: normal 20px "Oswald",sans-serif;
+    color: #fff;
+    transform: skewX(-28deg);
+}
+
+.btn{
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-slanted:hover{
+    background: rgba(19, 105, 216, 0.77);
+    display: inline-block;
+    transform: skewX(28deg);
+    transition: all 0.5s ease-in-out;
+}
+
+.button:hover{
+    background: rgba(19, 105, 216, 0.77);
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-slanted{
+    margin: 22px 0;
+    background: rgba(47,47,47,0.77);
+    display: inline-block;
+    transform: skewX(28deg);
+    transition: all 0.5s ease-in-out;
+}

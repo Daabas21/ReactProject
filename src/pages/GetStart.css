@@ -1,0 +1,63 @@
+.section-hero {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.platinum-hero{
+    background-image: url(../images/platinum-bg.png);
+}
+.classic-hero{
+    background-image: url(../images/classic-bg.png);
+}
+.section-hero:after {
+    content: url(../images/choose-icon.png);
+    position: absolute;
+    top: 38%;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.blockk{
+    position: relative;
+    min-height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.choose-option {
+    position: absolute;
+    top: 46%;
+    right: 0;
+    left: 0px;
+    z-index: 9;
+    margin: 0 auto;
+}
+.choose-option a {
+    font-size: 44px;
+    font-family: "Oswald",sans-serif;
+    font-weight: bold;
+    color: #fff;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: transparent;
+}
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+}

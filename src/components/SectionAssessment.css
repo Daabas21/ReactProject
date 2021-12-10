@@ -1,0 +1,46 @@
+.section-assessment {
+    position: relative;
+    min-height: 520px;
+    background-image: url(../images/bg-assessment.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+.containerr {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.heading-icon {
+    margin: 60px 35px 20px 30px;
+    max-width: 93px;
+    vertical-align: middle;
+}
+.border-line {
+    position: relative;
+    margin-top: 4.5rem;
+    margin-bottom: 47px;
+    border-top: 1px solid rgba(255,255,255,0.22);
+}
+.div-width{
+    width: 25%;
+}
+
+.position-line{
+    position: relative;
+    min-height: 1px;
+}
+
+.block::before{
+    content: '';
+    position: absolute;
+    top: -63px;
+    left: 50%;
+    width: 2px;
+    height: 30px;
+    background: rgba(255,255,255,0.22);
+}
